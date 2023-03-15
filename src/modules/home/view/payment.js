@@ -27,7 +27,7 @@ const PaymentScreen = ({navigation, visible, onHide, onCancel, route}) => {
   const styles = getStyle();
 
   const publishableKeyId =
-    'pk_test_51MdWHWSAESLCFb7O9hqJnUjkSdjOJfjdVjJIYp8iFCOi9Zug4rr83c1c7aX1lGysjuqbKSHufgIrRCst6piWrDo700pp5r8JBX';
+    '';
 
   useEffect(() => {
     if (publishableKeyId) {
